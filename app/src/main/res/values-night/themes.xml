@@ -1,0 +1,87 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyBodybuildingProgram" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/darkGray</item>
+        <item name="colorPrimaryVariant">@color/gray</item>
+        <item name="colorOnPrimary">@color/darkWhite</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/orange</item>
+        <item name="colorSecondaryVariant">@color/lightOrange</item>
+        <item name="colorOnSecondary">@color/gray</item>
+        <!-- Accent brand color. -->
+        <item name="colorAccent">@color/yellow</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+        <!-- Customize your theme here. -->
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:navigationBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <!-- App title theme. -->
+    <style name="AppNameTextStyle">
+        <item name="android:fontFamily">@font/kameron_bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Page title theme. -->
+    <style name="PageTitleTextStyle">
+        <item name="android:fontFamily">@font/cantarell_bold</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <!-- Default theme. -->
+    <style name="DefaultTextStyle" parent="@style/PageTitleTextStyle">
+        <item name="android:fontFamily">@font/inter_medium</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <!-- Details theme. -->
+    <style name="DetailsTextStyle" parent="@style/PageTitleTextStyle">
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Large default theme. -->
+    <style name="LargeDefaultTextStyle" parent="@style/DefaultTextStyle">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <!-- Button theme. -->
+    <style name="ButtonTextStyle" parent="@style/DefaultTextStyle">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <!-- Small Details theme. -->
+    <style name="SectionTitleTextStyle" parent="@style/DetailsTextStyle">
+        <item name="android:textSize">9sp</item>
+    </style>
+
+    <!-- Music and exercises title theme. -->
+    <style name="MusicAndExercisesTitleTextStyle" parent="@style/DefaultTextStyle">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Small Details theme. -->
+    <style name="SmallDetailsTextStyle" parent="@style/PageTitleTextStyle">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Session name theme. -->
+    <style name="SessionNameTextStyle" parent="@style/ButtonTextStyle">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Small default theme. -->
+    <style name="SmallDefaultTextStyle" parent="@style/DefaultTextStyle">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Medium default theme. -->
+    <style name="MediumDefaultTextStyle" parent="@style/DefaultTextStyle">
+        <item name="android:textSize">25sp</item>
+    </style>
+</resources>

@@ -1,0 +1,277 @@
+<resources>
+
+    <!--••••••••••••••••••-->
+    <!-- APPLICATION NAME -->
+    <!--••••••••••••••••••-->
+    <string name="app_name">My Bodybuilding Program</string>
+
+
+
+    <!--•••••••••••-->
+    <!-- Home Page -->
+    <!--•••••••••••-->
+    <string name="home_page_title">Accueil</string>
+
+    <!-- motivation text -->
+    <string name="sleep_motivation_text">Pas de séance aujourd\'hui, repose tes muscles !</string>
+    <string name="exercise_motivation_text">Aujourd\'hui c\'est le jour [], bonne chance soldat !</string>
+    <string name="congratulation_motivation_text">Bravo champion, continue comme ça !</string>
+
+    <!-- button -->
+    <string name="start_button_text_home_page">C\'est parti !</string>
+    <string name="random_button_text_home_page">Séance aléatoire</string>
+
+
+
+    <!--••••••••••••••-->
+    <!-- Profile Page -->
+    <!--••••••••••••••-->
+    <string name="profile_page_title">Profil</string>
+
+    <!-- weight section -->
+    <string name="weight_section_title">Poids</string>
+
+    <!-- load section -->
+    <string name="load_section_title">Charge max (2 reps)</string>
+
+
+
+    <!--•••••••••••••••-->
+    <!-- Sessions Page -->
+    <!--•••••••••••••••-->
+    <string name="sessions_page_title">Séances</string>
+
+    <!-- weight section -->
+    <string name="back_section_title">Dorsaux &amp; biceps</string>
+
+    <!-- weight section -->
+    <string name="pectorals_section_title">Péctoraux &amp; triceps</string>
+
+    <!-- weight section -->
+    <string name="abs_section_title">Abdominaux &amp; cardio</string>
+
+    <!-- weight section -->
+    <string name="legs_section_title">Jambes</string>
+
+    <!-- session component -->
+    <string name="session_name_item_sessions_page">session name</string>
+
+
+
+    <!--•••••••••••••-->
+    <!-- Musics Page -->
+    <!--•••••••••••••-->
+    <string name="musics_page_title">Musiques</string>
+
+    <!-- music component -->
+    <string name="music_title_item_music_page">music title</string>
+    <string name="music_author_item_music_page">music name</string>
+    <string name="music_time_item_music_page">music name</string>
+    <string name="music_three_dot_button_text">...</string>
+
+
+
+    <!--•••••••••••••••-->
+    <!-- Settings Page -->
+    <!--•••••••••••••••-->
+    <string name="settings_page_title">Paramètres</string>
+
+    <!-- notifications -->
+    <string name="notifications_text">Notifications</string>
+    <string name="sessions_notifications_text">@string/sessions_page_title</string>
+    <string name="weighings_notifications_text">Pesées</string>
+
+    <!-- sessions -->
+    <string name="session_text">En séance</string>
+    <string name="auto_music_session_text">Musique automatique</string>
+
+
+
+    <!--••••••••••••••••••••••-->
+    <!-- Session Preview Page -->
+    <!--••••••••••••••••••••••-->
+    <string name="session_preview_page_title">Aperçu de la séance</string>
+
+    <!-- session name -->
+    <string name="session_name_item_session_preview_page">@string/session_name_item_sessions_page</string>
+
+    <!-- exercise component -->
+    <string name="exercise_name_item_session_preview_page">exercise name</string>
+    <string name="exercise_repetitions_item_session_preview_page">reps x series</string>
+
+    <!-- button -->
+    <string name="start_button_text_session_preview_page">Commencer !</string>
+
+
+
+    <!--••••••••••••••••••••••-->
+    <!-- Session Preview Page -->
+    <!--••••••••••••••••••••••-->
+    <string name="session_page_title">Séance</string>
+
+    <!-- music section -->
+    <string name="music_title_item_session_page">@string/music_title_item_music_page</string>
+    <string name="music_author_item_session_page">@string/music_author_item_music_page</string>
+    <string name="music_time_item_session_page">@string/music_time_item_music_page</string>
+
+    <!-- exercises information component -->
+    <string name="progression_item">EN / NE</string>
+    <string name="exercise_name_item_session_page">@string/exercise_name_item_session_preview_page</string>
+    <string name="exercise_description_item">3 short lines descriptions</string>
+
+    <!-- button -->
+    <string name="pass_button_text">Passer</string>
+    <string name="finish_button_text">Terminé</string>
+
+    <!-- next exercise section -->
+    <string name="next_exercise_section_title_item">Exercice suivant :</string>
+    <string name="next_exercise_name_item_session_page">@string/exercise_name_item_session_preview_page</string>
+
+
+
+    <!--••••••••••••••••••••••-->
+    <!-- Random Session PopUp -->
+    <!--••••••••••••••••••••••-->
+    <string name="random_session_popup_title">@string/random_button_text_home_page</string>
+
+    <!-- muscle group -->
+    <string name="back_text">@string/back_section_title</string>
+    <string name="pectorals_text">@string/pectorals_section_title</string>
+    <string name="abs_text">@string/abs_section_title</string>
+    <string name="legs_text">@string/legs_section_title</string>
+
+    <!-- button -->
+    <string name="find_session_button_text">Trouver une séance</string>
+
+
+
+    <!--••••••••••••••••••-->
+    <!-- Add Weight PopUp -->
+    <!--••••••••••••••••••-->
+    <string name="kg_text_add_weight_popup">kg</string>
+    <string name="add_weight_button_text">Ajouter</string>
+
+
+
+    <!--•••••••••••••••••••••-->
+    <!-- Edit Max Load PopUp -->
+    <!--•••••••••••••••••••••-->
+    <string name="edit_max_load_popup_title">Changer charge max</string>
+
+    <!-- settings -->
+    <string-array name="exercise_name_edit_max_load_popup" />
+    <string name="kg_text_edit_max_load_popup">@string/kg_text_add_weight_popup</string>
+
+    <!-- buttons -->
+    <string name="valid_max_load_button_text">Valider</string>
+    <string name="add_max_load_button_text">ajouter</string>
+
+
+
+    <!--••••••••••••••••••••-->
+    <!-- Add Max Load PopUp -->
+    <!--••••••••••••••••••••-->
+    <string name="kg_text_add_max_load_popup">@string/kg_text_add_weight_popup</string>
+    <string name="save_max_load_button_text">@string/add_weight_button_text</string>
+
+
+
+    <!--••••••••••••••••••-->
+    <!-- Edit Music PopUp -->
+    <!--••••••••••••••••••-->
+    <string name="edit_music_title">Modifier le titre du morceau</string>
+    <string name="edit_music_author">Modifier le nom de l\'auteur</string>
+    <string name="remove_music">Supprimer de la playlist</string>
+
+
+
+    <!--••••••••••••••••••••••••-->
+    <!-- Edit Music Title PopUp -->
+    <!--••••••••••••••••••••••••-->
+    <string name="valid_music_title">@string/valid_max_load_button_text</string>
+
+
+
+    <!--••••••••••••••••••••••••-->
+    <!-- Edit Author Name PopUp -->
+    <!--••••••••••••••••••••••••-->
+    <string name="valid_author_name">@string/valid_max_load_button_text</string>
+
+
+
+    <!--•••••••••••••••••-->
+    <!-- Add Music PopUp -->
+    <!--•••••••••••••••••-->
+    <string name="add_music_popup_title">Ajouter une musique</string>
+    <string name="add_music">@string/add_weight_button_text</string>
+
+
+
+    <!--•••••••••••••••••••••-->
+    <!-- Edit Exercise PopUp -->
+    <!--•••••••••••••••••••••-->
+    <string name="edit_exercise">Modifier l\'exercice</string>
+    <string name="remove_exercise">Supprimer l\exercice</string>
+
+
+
+    <!--•••••••••••••••••••••-->
+    <!-- Edit Exercise PopUp -->
+    <!--•••••••••••••••••••••-->
+    <string name="edit_exercise_popup_title">@string/edit_exercise</string>
+
+    <!-- settings -->
+    <string name="edit_exercise_weight">poids</string>
+    <string name="kg_text_edit_exercise_popup">@string/kg_text_add_weight_popup</string>
+    <string name="edit_exercise_reps">reps</string>
+    <string name="edit_exercise_time">temps</string>
+    <string name="sec_text_edit_exercise_popup">sec</string>
+    <string name="edit_exercise_recovery">recup\'</string>
+    <string name="edit_exercise_series">series</string>
+    <string name="edit_exercise_series_recovery">recup\' series</string>
+    <string name="edit_exercise_position">position</string>
+
+    <!-- buttons -->
+    <string name="valid_exercise_button_text">@string/valid_max_load_button_text</string>
+
+
+
+    <!--••••••••••••••••••••••••••••••••••••-->
+    <!-- Remove Exercise Confirmation PopUp -->
+    <!--••••••••••••••••••••••••••••••••••••-->
+    <string name="remove_exercise_popup_title">Supprimer l\'exercice ?</string>
+    <string name="cancel_suppression_button_text">NON</string>
+    <string name="valid_suppression_button_text">OUI</string>
+
+
+
+    <!--••••••••••••••••••••-->
+    <!-- Add Exercise PopUp -->
+    <!--••••••••••••••••••••-->
+    <string name="add_exercise_popup_title">Ajouter l\'exercice</string>
+
+    <!-- settings -->
+    <string-array name="exercise_name" />
+    <string name="add_exercise_weight">@string/edit_exercise_weight</string>
+    <string name="kg_text_add_exercise_popup">@string/kg_text_add_weight_popup</string>
+    <string name="add_exercise_reps">@string/edit_exercise_reps</string>
+    <string name="add_exercise_time">@string/edit_exercise_time</string>
+    <string name="sec_text_add_exercise_popup">@string/sec_text_edit_exercise_popup</string>
+    <string name="add_exercise_recovery">@string/edit_exercise_recovery</string>
+    <string name="add_exercise_series">@string/edit_exercise_series</string>
+    <string name="add_exercise_series_recovery">@string/edit_exercise_series_recovery</string>
+    <string name="add_exercise_position">@string/edit_exercise_position</string>
+
+    <!-- buttons -->
+    <string name="valid_exercise_addition_button_text">@string/valid_max_load_button_text</string>
+
+
+
+    <!--••••••••••••••••••••••••••••-->
+    <!-- Abandonment Confirmation PopUp -->
+    <!--••••••••••••••••••••••••••••-->
+    <string name="abandonment_popup_title">Abandonner ?</string>
+    <string name="cancel_abandonment_button_text">@string/cancel_suppression_button_text</string>
+    <string name="valid_abandonment_button_text">@string/valid_suppression_button_text</string>
+
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "619618288878",
+    "firebase_url": "https://my-bodybuilding-program-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "my-bodybuilding-program",
+    "storage_bucket": "my-bodybuilding-program.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619618288878:android:b058ad95e6b04e33175fff",
+        "android_client_info": {
+          "package_name": "fr.leflavb.mybodybuildingprogram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619618288878-37dbck1slibt9uob0r9urmbe0vjtgav2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVVSXepl2bFICay9OMPBfMAHT4ib6GuRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619618288878-37dbck1slibt9uob0r9urmbe0vjtgav2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
