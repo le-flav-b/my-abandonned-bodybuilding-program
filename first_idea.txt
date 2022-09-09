@@ -1,0 +1,114 @@
+
+          ■  STRUCTURE HORS SÉANCE :  ( ► onglets ; ♦ sections [optionel] ; • contenu)  ■          <- 0
+
+
+► Accueil ( icon maison )
+    • une image + un court texte + un bouton
+        - if it's a training day :
+            - if the session is done : image = trophy.png
+                                       texte = Bravo champion, \n continue comme ça !
+                                       PAS DE BOUTON
+            - else : image = '[groupe musculaire]'
+                             texte = Aujourd'hui c'est séance [groupe musculaire], \n bonne chance soldat !
+                             bouton = C'est parti !
+        else : image = sleep.png
+               texte = Pas de séance aujourd'hui, \n repose tes muscles !
+               bouton = Séance aléatoire                                                            <- 10
+
+► Profil ( icon ombre d'une personne )
+    ♦ Poids
+        • graphique (courbe) de l'évolution du poids au cours du temps
+            • bouton ajouter ( + )                                                                  <- 1
+
+► Séances ( icon bustre de bodybuilder avec les bras contractés comme ça /__☺__\ )
+    ♦ une section par groupe musculaire
+        • nom chaque séance séparé d'un fin trait blanc (ex nom = Séance [groupe musculaire] 1)
+    • bouton ajouter ( + )                                                                          <- 9
+
+► Musique ( icon ♫ )                                                                               <- 2
+    • chaque musique est séparé d'un fin trait blanc •
+    • titre, auteur, durée, bouton (trois points verticaux)                                         <- 3
+    • bouton ajouter ( + ) fixé en bas à droite                                                     <- 4
+
+► Paramètres ( icon roue dentée )
+    • chaque groupe de paramètres est séparé d'un fin trait blanc •
+    • Notifications (bouton radio)
+        • Séances (bouton radio)                                                                    <- 5
+        • Pesée (bouton radio)                                                                      <- 6
+    • Lancement automatique de la musique (bouton radio)
+
+
+
+
+                       ■  STRUCTURE EN APRERCU DE LA SÉANCE :  ( • contenu)  ■                      <- 7
+
+
+• bouton retour en haut à droite
+• image du groupe musculaire
+• nom de la séance
+• exercices et des infos (nom, rep, nb_series, poids) séparés d'un trait blanc •                    <- 11
+• section + pour ajouter un exercice à la fin                                                       <- 12
+• bouton Commencer fixé en bas au milieu
+
+
+
+
+                       ■  STRUCTURE EN SÉANCE :  ( ♦ sections ; • contenu)  ■                      <- 7
+
+
+• croix en haut à droite pour abandonner et revenir à l'accueil (avec pop up de confirmation)
+♦ Musique
+    • infos sur la musique
+    • boutons pause et suivant
+• image de l'exercice
+• numéro de l'exercice / nn exercices
+si il y a un temps:
+    • autour de l'image arc de cercle de progression
+sinon :
+    • bouton Terminé en dessous de la description
+• nom de l'exercice
+• poids
+• courte description de l'exercice et/ou conseil pour bien opérer
+♦ Exercice suivant                                                                                  <- 8
+    • nom de l'exercice suivant
+
+
+
+
+                                        ■  DÉTAILS :  ■
+
+
+* "image" signifie un PNG dans un rond couleur colorPrimaryVariant
+0) Quand on est sur un onglet, celui ci est rempli et d'une autre couleur
+1) pop up avec une liste déroulante de 40kg à 100kg tout les 0.1kg et un bouton valider qui enregistre le poid à la date du jour et qui actualise l'onglet
+2) on ne peut pas lancer de musique depuis l'onglet musique, cliquer sur la musique == cliquer sur le bouton ... verticaux
+3) trois possibilités : renomer la musique, renomer l'auteur, ou supprimer le morceau de la playlist (pour renomer, pop up avec un imput et un bouton valider)
+4) pop up avec un imput où on rentre un nom de musique et un bouton valider qui va chercher le premier resultat de youtube, le télécharge,
+   l'ajoute à la playlist, et actualiser l'onglet
+5) chaque jour de séance, à l'heure de la séance, envois d'une notification pour faire la séance qui emmène à l'accueil
+6) 1 samedi sur 2, envois d'une notification pour se peser qui emmène au profil
+7) Quand on est en train de consulter ou faire une séance, on a plus accès aux onglets
+8) section qui prends pas toute la largeur
+9) pop up à voir en dernier dans longtemps
+10) pop up avec boutons checkbox pour les groupes musculaire et un bouton qui va sur un un apercu de séance aléatoire
+11) quand on clique sur un exo il y a modifier (pop up qui pour pouvoir modifier le rep, nb_series, poids) ou supprimer (pop up de confirmation)
+12) pop up avec des input (nom, temps/nb, rep, nb_series, t_inter_serie, poids)
+
+
+
+
+                                        ■  DATA :  ■
+
+
+
+
+5 firebase database : (or one with the 5 inside)
+• playlist
+• sessions
+• exercises (id, name, images)
+• profile
+• settings
+
+
+TODO: find images for all exercises
+TODO: see how to create a new session and how to add a non-existent exercise
